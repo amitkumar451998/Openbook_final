@@ -1,0 +1,407 @@
+
+*{
+    margin: 0;
+    padding: -2%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+        background-image: url('https://online.destinyfinco.com/wp-content/uploads/2021/06/students-pic-min-1.jpg');
+        background-size:cover ;
+        margin-left: -8px;
+        margin-top: -x;
+        height:90vh;
+}
+.nav_main{
+    display: flex;
+    height: 100px;
+}
+.nav_main >img{
+    padding-left: 25px;
+    border-radius: 4px;
+}
+.nav_main >ul{
+    width: 40%;
+    height:30% ;
+    margin-left: 28%;
+    padding-top:15px;
+    display: flex;
+    list-style-type: none;
+    font-family: "Fira Sans", Arial, sans-serif;
+}
+
+.nav_main >ul >li >a{
+text-decoration: none;
+font-size: 14px;
+color:#E5EEFF;
+font-weight: 700;
+font-style: normal;
+font-variant: normal;
+text-transform:up ;
+text-transform:uppercase;
+text-decoration:none solid rgb(229, 238, 255);
+color:black;
+}
+.nav_main >ul >li >a:hover{
+    font-size: 16px;
+}
+.nav_main >ul >li{
+    margin-left: 25px;
+}
+.nav_main >button{
+    height:30%;
+    width: 7%;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family : inherit;
+    font-size: 1em;
+}
+
+.enquiry{
+   width: 22%; 
+   height: 170px;
+   border: 1px solid black;
+   margin-left:3%;
+   margin-top: 250px;
+   background-color: white;;
+}
+#demo_class{
+    width:21% ;
+    height: 190px;
+    margin-left: 4%;
+    margin-top: 250px;
+    background-color: #E5EEFF;
+    border-radius:4px;
+    box-shadow:1px 1px 1px 1px white ;
+}
+#demo_class >img{
+    width: 45%;
+    margin-top: 4px;
+    margin-left:27.5% ;
+    height:65% ;
+}
+#demo_class >button{
+    width: 35%;
+    height: 15%;
+    margin-top: 5px;
+    margin-left: 32%;
+}
+#demo_class >button:hover{
+    background-color: rgb(12, 173, 12);
+}
+
+#howitWork{
+    width: 100%;
+    height: 350px;;
+    background-color:rgb(247, 247, 248) ;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+  #howitWork >h2{
+      margin-left: 42%;
+  }
+  #steps{
+    display: flex;
+    margin-top: 10px;
+  }
+  #steps >div{
+    width: 30px;
+    height: 24px ;
+    text-align: center;
+    border: 1-px solid black;
+    padding-top: .5%;
+    margin-bottom: -.3%;
+    background-color:grey ;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  #steps >div:first-child{
+      margin-left: 19.5%;
+      border-radius: 50%;
+      
+  }
+  
+  #steps >hr{
+    width: 350px; 
+    height: 1px; 
+   background-color: blue;
+   border: blue;
+   margin-left: 10px;
+   margin-top: 15px;
+   margin-right:10px;
+  }
+  
+  #stepwork{
+   display: flex; 
+   margin-top: 20px;
+   margin-left: 11%;  
+  }
+  #stepwork >div{
+     width:20% ; 
+     height: 200px;
+     text-align: center;
+  }
+  #stepwork >div >img{
+      width: 40%;
+      height:90px ;
+  }
+  #step2{
+      margin-left: 14%;
+  }
+  #step3{
+    margin-left: 14%;
+  
+  }
+  #step2 >img{
+    border-radius: 55%;
+  }
+  #step3 >img{
+      border-radius: 50%;
+  }
+  
+
+
+  #our_courses{
+    width: 100%;
+    height:500px;
+    margin-left: 0;
+    text-align: center;
+    color:white;
+    position: relative;
+    box-shadow: 2px  #888888;
+    background-color: rgb(80, 80, 245);
+    animation: myanimation 10s infinite;
+  }
+
+  @keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:aqua;}
+    100% {background-color: red;}
+  }
+  #our_courses >h2{
+    padding-top: 20px;
+    margin-top: -10px;
+  }
+  #courses{
+    width: 70%;
+    height: 350px;
+    display: flex;
+    margin-left: 15.5%; 
+  }
+  
+  #courses >div{
+    width: 31.3%;
+    margin-left: 1%;
+    margin-top: .4%;
+    height: 98%; 
+  }
+  #courses >div:hover{
+    box-shadow: 1px 1px 1px 2px white;
+    cursor: pointer;
+  }
+  #courses >div >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+
+
+  #query{
+    width: 100%;
+    height: 290px;
+    margin-left: -0;
+    text-align: center;
+    
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+    background-size:cover ;
+  }
+  #query >h1{
+    margin-top:80px ;
+    font-family: sans-serif;
+  }
+  #query >h3{
+    font-family: sans-serif;
+  }
+  
+#query >button{
+    height: 60px;
+    width: 200px;
+    margin-top: 22px;
+    margin-left: -35px;
+    border-radius: 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 36px;
+    background: linear-gradient(to right bottom, #4776E6, #8E54E9);
+  }
+
+
+  #path{
+    width: 100%;
+    height: 95vh;
+  }
+  #path >h2{
+font-size: 55px;
+color: #141A66;
+font-family:Arial, sans-serif ;
+font-weight: 700;
+margin-left: 23%;
+margin-top: 5%;
+  }
+  #path >div{
+    width: 85%;
+    height: 60%;
+    margin-left: 7%;
+    display: flex;
+    margin-top: 3%;
+  }
+ #path >div >div{
+width:23%;
+height:100 ;
+margin-left: 3%;
+box-shadow: 0px 0px 18px 9px #E1EAFC;
+  }
+
+  #path >div >div >h4{
+    padding-top: 10px;
+     width:100% ;
+    height: 15%;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.4;
+    
+  }
+  #path >div >div:nth-child(1) >h4{
+    color: #3A74E8;
+    font-size: 22px;
+  }
+  #path >div >div:nth-child(2){
+    background-color: #E1EAFC;
+  }
+  #path >div >div:nth-child(4){
+    background-color: #E1EAFC;
+  }
+  #path >div >div:nth-child(3) >h4{
+    color: #3A74E8;
+    font-size: 22px;
+  }
+  #path >div >div >p{
+    width:100% ;
+    height: 17%;
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #path >div >div >p:nth-child(3){
+    height: 45%;
+  }
+  
+  #path >div >div >p:nth-child(3) >img{
+    width: 60%;
+    height: 100%;
+    margin-left:40% ;
+  }
+  #path >div >div >h2{
+    width: 30% ;
+    height: auto;
+    font-size: 50px;
+    font-family:  Arial, sans-serif;
+    margin-left: 70%;
+    color: #80A6F0;
+  }
+  
+
+
+
+
+  #aboutus_head{
+    color: #000;
+    width: 100%;
+    margin-left: 0;
+   background-color:rgb(238, 235, 235) ;
+  }
+  #heading_contactus{
+    margin-left: 40%;
+    padding-top: 30px;
+  }
+  
+  #about_us{
+    margin-top: 15px;
+    margin-left: 20%;
+    width: 86%;
+    margin-bottom: 30px;
+    height: auto;
+    display: flex;
+    border-bottom: 1px dotted wheat;
+  }
+  #about_us >div{
+   width: 25%;
+   height: 100%;
+   font-weight: bolder;
+  }
+  
+  #bigbasket_list1{
+    width: 100%;
+    height: 80%;
+  }
+  
+  #social_us_pic{
+   width:80% ; 
+   margin-top: -2px;
+   height: 50px;
+   display: flex;
+  }
+  #social_us_pic >img{
+    width: 22%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 50%;
+  }
+  #about_us >div >p{
+    cursor: text;
+    margin-left:10px ;
+    margin-bottom: 15px;
+  }
+  #bigbasket_us >ul{
+    margin-left:-30px;
+  }
+  #bigbasket_us >ul >li{
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  #help_us >ul{
+    margin-left:-30px;
+  }
+  #help_us >ul >li{
+    margin-bottom: 15px;
+  }
+  
+  #social_us_pic >img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 2px grey;
+    border-radius: 50%;
+  }
+  
+  #copyright{
+    width: 101.4%;
+    height: 40px;
+    margin-left:-7px ;
+    padding-top: 1px;
+    text-align: center;
+    background-color: #888;
+  }
